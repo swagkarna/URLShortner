@@ -1,0 +1,134 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #202020 url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+::placeholder{
+  color: #757575;
+  font-family: 'Roboto', sans-serif;
+}
+#container{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+#netsecnow{
+  text-align: left;
+  font-family: 'Freckle Face', cursive;
+  color: #53a9f1;
+  padding: 0px 22px;
+  cursor: pointer;
+}
+#stay{
+  color: #fff;
+  padding: 5px 42px;
+  margin-top: -56px;
+  width: 80px;
+  text-align: right;
+  float: right;
+  cursor: pointer;
+}
+#img{
+  height: 20px;
+  padding: 44px 10px;
+  margin-top: -95px;
+  float: right;
+  cursor: pointer;
+}
+.title{
+  background: linear-gradient(to left, #53a9f1, #185a9d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+  max-width: 600px;
+}
+#url,#urlCopy{
+  height: 60px;
+  max-width: 660px;
+  width: 60%;
+  border: 2px solid #53a9f1;
+  border-radius: 7px 0px 0px 7px;
+  background-color: rgba(0,0,0,0.7);
+  margin-top: 100px;
+  outline: none;
+  padding: 20px 22px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: -120px;
+}
+#btn,#btnCopy{
+  height: 60px;
+  max-width: 120px;
+  width: 30%;
+  color: #fff;
+  background-color: #53a9f1;
+  border: 2px solid #53a9f1;
+  border-radius: 0px 7px 7px 0px;
+  margin-top: 100px;
+  outline: none;
+  padding: 20px 22px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  margin-left: -2px;
+  cursor: pointer;
+  transition: .3s;
+}
+#btn:hover{
+  background-color: #11bcfc;
+  border: 2px solid #11bcfc;
+}
+#btnCopy:hover{
+  background-color: #11bcfc;
+  border: 2px solid #11bcfc;
+}
+#close{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #53a9f1;
+  background-color: transparent;
+  border: 0;
+  border-radius: 20px;
+  max-width: 0px;
+  width: 0px;
+  height: 0;
+  margin-left: -40px;
+  margin-top: 104px;  
+  padding: 14px;
+  cursor: pointer;
+  outline: none;
+  display: none;
+}
+footer{
+  color: #999;
+  font-size: 12px;
+  position: absolute;
+  text-align: center;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+}
+footer:hover{
+  color: #11bcfc;
+}
+@media (max-width: 500px){
+  #url{
+    max-width: 60%;
+    width: 60%;
+    font-size: 15px;
+    margin-left: -30%;
+  }
+  #btn{
+    max-width: 30%;
+    width: 30%;
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+}
