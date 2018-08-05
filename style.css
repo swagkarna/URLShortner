@@ -17,7 +17,7 @@ body{
 #Hak9{
   text-align: left;
   font-family: 'Freckle Face', cursive;
-  color: #53a9f1;
+  color: #920000;
   padding: 0px 22px;
   cursor: pointer;
 }
@@ -38,7 +38,7 @@ body{
   cursor: pointer;
 }
 .title{
-  background: linear-gradient(to left, #53a9f1, #185a9d);
+  background: linear-gradient(to left, #920000, #920000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Roboto', sans-serif;
@@ -49,7 +49,7 @@ body{
   height: 60px;
   max-width: 660px;
   width: 60%;
-  border: 2px solid #53a9f1;
+  border: 2px solid #920000;
   border-radius: 7px 0px 0px 7px;
   background-color: rgba(0,0,0,0.7);
   margin-top: 100px;
@@ -66,8 +66,8 @@ body{
   max-width: 120px;
   width: 30%;
   color: #fff;
-  background-color: #53a9f1;
-  border: 2px solid #53a9f1;
+  background-color: #920000;
+  border: 2px solid #920000;
   border-radius: 0px 7px 7px 0px;
   margin-top: 100px;
   outline: none;
@@ -81,18 +81,18 @@ body{
   transition: .3s;
 }
 #btn:hover{
-  background-color: #11bcfc;
-  border: 2px solid #11bcfc;
+  background-color: #f60909;
+  border: 2px solid #f60909;
 }
 #btnCopy:hover{
-  background-color: #11bcfc;
-  border: 2px solid #11bcfc;
+  background-color: #f60909;
+  border: 2px solid #f60909;
 }
 #close{
   position: absolute;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  color: #53a9f1;
+  color: #920000;
   background-color: transparent;
   border: 0;
   border-radius: 20px;
@@ -116,7 +116,7 @@ footer{
   right: 0;
 }
 footer:hover{
-  color: #11bcfc;
+  color: #f60909;
 }
 @media (max-width: 500px){
   #url{
