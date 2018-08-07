@@ -3,7 +3,7 @@
 
 
 ## Screenshot
-![Alt text](https://preview.ibb.co/e1YY3z/short.png "URL SHORTNER")
+![Alt text](https://preview.ibb.co/ncyBAe/screen.png "URL SHORTNER")
 
 
 
